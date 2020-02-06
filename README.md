@@ -5,12 +5,10 @@ Organization Name : Zonezoft
 Repository Name : Zonzit
 Webservice : https://www.geoplugin.com/webservices/currency
 
+Description : Geoplugin provides an online Currency Converter web service. There are two types of currency conversion available - a free IP Geolocation currency converter and a “from any to any” fully flexible Currency Converter API.
 
-This repository listens to a free webservice for below URL.
-https://www.geoplugin.com/webservices/currency
+Both converters use daily updated and accurate conversion rates. 
 
-Webhook that is created for this URL will listen to trigger/run events when the currency conversion is checked.
-Webhook will alert the GIT repository with each update.
+Webhook URL : Webhook created will listen to the geoplugin url and will accordingly trigger the events.
 
-Event that webhook is listening to is check_run.
-Each run will trigger an event to the Zonzit Repository.
+
